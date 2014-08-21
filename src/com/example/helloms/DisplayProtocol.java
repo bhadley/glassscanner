@@ -53,9 +53,9 @@ import com.parse.ParseQuery;
  * This class is used after the QR code is scanned. It downloads the information from
  * the database and displays it on Glass. Handled here is the display of images and timers.
  * 
- * This code is really not in "production state". It is not well documented nor optimally coded. 
+ * This code is really not in "production state". It is not documented nor optimally coded. 
  * We were trying to explore many capabilities, so we spent little time refining code once things started working.
- * Bottom line is, don't judge my code
+ * Bottom line is, please don't judge me by this code
  *
  */
 public final class DisplayProtocol extends Activity implements SensorEventListener  {
